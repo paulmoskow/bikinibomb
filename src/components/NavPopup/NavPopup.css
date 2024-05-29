@@ -1,0 +1,70 @@
+.nav-popup {
+  width: 99.5%;
+  display: flex;
+  visibility: hidden;
+  transition: visibility 0s, opacity 300ms linear 300ms;
+  justify-content: left;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.nav-popup_opened {
+  visibility: visible;
+}
+
+.nav-popup__container {
+  width: 50%;
+  background: #FFE2F0EE;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+
+.nav-popup__close-button {
+  width: 22px;
+  height: 22px;
+  background-image: url("../../images/Group.svg");
+  background-position: center;
+  rotate: 45;
+  margin: 29px 29px 0 0;
+  cursor: pointer;
+}
+
+.nav-popup__navtab {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  margin: 20px 0 0 15%;
+  width: 100%;
+}
+
+.nav-popup__item {
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 1.21;
+  color: #202020;
+  text-decoration: none;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  max-width: 70%;
+}
+
+.nav-popup__item_top {
+  font-weight: 600;
+}
+
+.nav-popup__item_underlined {
+  border-bottom: 2px solid #fff;
+  padding-bottom: 4px;
+  margin-bottom: 24px;
+}
+
+
+
+

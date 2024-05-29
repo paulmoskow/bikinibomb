@@ -1,0 +1,136 @@
+@keyframes slider {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-150%);
+  }
+}
+
+.header {
+  max-width: 1140px;
+  width: 89vw;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.header__logo {
+  width: 170px;
+  height: 170px;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+  overflow: hidden;
+}
+
+.header__container_rose {
+  background-color: #FFE2F0;
+  margin: 0;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.header__container_top {
+  margin: 30px auto 15px;  
+}
+
+.header__container_bottom {
+  margin: 15px auto 30px;  
+}
+
+.header__container_visible {
+  visibility: hidden;
+  position: absolute;
+}
+
+.header__button {
+  margin: 0 25px 0 0;
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 1;
+  text-decoration: none;
+  color: #202020;
+}
+
+.header__button:last-of-type {
+  margin-right: 0;
+}
+
+.header__button_top {
+  font-weight: 600;
+}
+
+.header__title {
+  padding: 11px;
+  font-size: 0.62rem;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  animation: slider 30s linear infinite;
+  white-space: nowrap;
+}
+
+.header__nav {
+  width: 35px;
+  height: 35px;
+  border-radius: 10px;
+  object-fit: fill;
+  object-position: center;
+}
+
+.header__menu-button {
+  background-image: url('../../images/icon__menu.svg');
+  margin: 0 auto 10px 0;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 896px) {
+  .header__container_hidden {
+    visibility: hidden;
+    position: absolute;
+  }
+
+  .header__container_visible {
+    visibility: visible;
+    position: relative;
+  }
+
+  .header__logo {
+    width: 130px;
+    height: 130px;
+    margin: 0 10px;
+  }
+
+  .header__logo:last-of-type {
+    margin-right: 40px;
+  }
+
+  .header__nav {
+    width: 23px;
+    height: 23px;
+    border-radius: 5px;
+    object-fit: fill;
+    object-position: center;
+  }
+
+  .header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+  }
+}
+
+

@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/bikini/static/css/main.c304810e.css",
-    "main.js": "/bikini/static/js/main.c0840100.js",
-    "static/js/592.15bc5ea1.chunk.js": "/bikini/static/js/592.15bc5ea1.chunk.js",
+    "main.js": "/bikini/static/js/main.8e02c6e7.js",
+    "static/js/592.f2cea98c.chunk.js": "/bikini/static/js/592.f2cea98c.chunk.js",
     "static/media/background-pic.jpg": "/bikini/static/media/background-pic.8618d0941e2f209cc48d.jpg",
     "static/media/Inter-Black.woff?v=3.19": "/bikini/static/media/Inter-Black.fd37f7e052bea1018058.woff",
     "static/media/Inter-Regular.woff?v=3.19": "/bikini/static/media/Inter-Regular.34ed58565339f4f3be40.woff",
@@ -34,11 +34,11 @@
     "static/media/smalltumboff.svg": "/bikini/static/media/smalltumboff.5ea0763a583272955175.svg",
     "static/media/smalltumb.svg": "/bikini/static/media/smalltumb.efba29772b9fa12983c6.svg",
     "main.c304810e.css.map": "/bikini/static/css/main.c304810e.css.map",
-    "main.c0840100.js.map": "/bikini/static/js/main.c0840100.js.map",
-    "592.15bc5ea1.chunk.js.map": "/bikini/static/js/592.15bc5ea1.chunk.js.map"
+    "main.8e02c6e7.js.map": "/bikini/static/js/main.8e02c6e7.js.map",
+    "592.f2cea98c.chunk.js.map": "/bikini/static/js/592.f2cea98c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c304810e.css",
-    "static/js/main.c0840100.js"
+    "static/js/main.8e02c6e7.js"
   ]
 }

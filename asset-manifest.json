@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/bikinibomb/static/css/main.f2708870.css",
-    "main.js": "/bikinibomb/static/js/main.11512aaa.js",
+    "main.css": "/bikinibomb/static/css/main.0363558d.css",
+    "main.js": "/bikinibomb/static/js/main.59af26f1.js",
     "static/js/592.15bc5ea1.chunk.js": "/bikinibomb/static/js/592.15bc5ea1.chunk.js",
     "static/media/background-pic.jpg": "/bikinibomb/static/media/background-pic.8618d0941e2f209cc48d.jpg",
     "static/media/Inter-Black.woff?v=3.19": "/bikinibomb/static/media/Inter-Black.fd37f7e052bea1018058.woff",
@@ -33,12 +33,12 @@
     "static/media/save3.svg": "/bikinibomb/static/media/save3.ce50d254ed5cdff20e15.svg",
     "static/media/smalltumboff.svg": "/bikinibomb/static/media/smalltumboff.5ea0763a583272955175.svg",
     "static/media/smalltumb.svg": "/bikinibomb/static/media/smalltumb.efba29772b9fa12983c6.svg",
-    "main.f2708870.css.map": "/bikinibomb/static/css/main.f2708870.css.map",
-    "main.11512aaa.js.map": "/bikinibomb/static/js/main.11512aaa.js.map",
+    "main.0363558d.css.map": "/bikinibomb/static/css/main.0363558d.css.map",
+    "main.59af26f1.js.map": "/bikinibomb/static/js/main.59af26f1.js.map",
     "592.15bc5ea1.chunk.js.map": "/bikinibomb/static/js/592.15bc5ea1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f2708870.css",
-    "static/js/main.11512aaa.js"
+    "static/css/main.0363558d.css",
+    "static/js/main.59af26f1.js"
   ]
 }

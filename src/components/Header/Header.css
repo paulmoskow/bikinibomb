@@ -54,8 +54,9 @@
   margin: 0 25px 0 0;
   font-size: 0.75rem;
   font-weight: 500;
-  line-height: 1;
+  line-height: 1.21;
   text-decoration: none;
+  letter-spacing: 1px;
   color: #202020;
 }
 
@@ -127,7 +128,7 @@
 
   .header__container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     margin: 5px;
   }

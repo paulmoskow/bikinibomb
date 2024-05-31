@@ -1,18 +1,11 @@
-const containerStyle = {
-  display: 'flex',
-  justifyContent: 'center',
-  alignItems: 'center',
-  flexDirection: 'column'
-};
+import Cards from '../Cards/Cards';
+import Info from '../Info/Info';
 
 function Main() {
   return (
-    <main style={containerStyle}>
-      <p>карточки</p>
-      <p>доставка и оплата</p>
-      <p>о нас</p>
-      <p>блог</p>
-      <p>отзывы</p>
+    <main className="main">
+      <Cards/>
+      <Info/>
     </main>
   );
 }

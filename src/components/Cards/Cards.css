@@ -1,0 +1,53 @@
+.cards__container {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .cards__container_landing {
+    background-image: url('../../images/background-pic.jpg');
+    width: 1140px;
+    min-height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+  }
+
+  .cards__container_overlay {
+    background-color: #FFE2F02F;
+    width: 100%;
+    height: 100%;
+    transition: background-color linear 0.5s;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    overflow: hidden;
+  }
+
+  .cards__container_title {
+    font-size: 5.5rem;
+    font-weight: 300;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  @media screen and (max-width: 896px) {
+    .cards__container_title {
+      font-size: 4rem;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .cards__container_title {
+      font-size: 2.5rem;
+    }
+  }

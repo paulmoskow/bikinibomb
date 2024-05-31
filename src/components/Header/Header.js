@@ -42,7 +42,7 @@ function Header({onMenu}) {
             <NavLink to="/" className="button header__button"><img className="header__nav" src={order} alt="Корзина" /></NavLink>
           </div>
           <div className="header__container">
-            <NavLink to="/" className="button header__button">Доставка и оплата</NavLink>
+            <a href="#info" className="button header__button">Доставка и оплата</a>
             <NavLink to="/" className="button header__button">О нас</NavLink>
             <NavLink to="/" className="button header__button">Блог</NavLink>
             <NavLink to="/" className="button header__button">Отзывы</NavLink>

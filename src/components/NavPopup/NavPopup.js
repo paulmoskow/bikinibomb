@@ -17,7 +17,7 @@ function NavPopup({ isOpen, onClose }) {
           <NavLink to="/" onClick={onClose} className="nav-popup__item">туники</NavLink>
           <NavLink to="/" onClick={onClose} className="nav-popup__item">шляпы</NavLink>
           <NavLink to="/" onClick={onClose} className="nav-popup__item">очки</NavLink>
-          <NavLink to="/" onClick={onClose} className="nav-popup__item">доставка и оплата</NavLink>
+          <a href="#info" onClick={onClose} className="nav-popup__item">доставка и оплата</a>
           <NavLink to="/" onClick={onClose} className="nav-popup__item">отзывы</NavLink>
           <NavLink to="/" onClick={onClose} className="nav-popup__item">блог</NavLink>
           <NavLink to="/" onClick={onClose} className="nav-popup__item">о нас</NavLink>

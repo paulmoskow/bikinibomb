@@ -1,6 +1,6 @@
 {
-  "homepage": "https://paulmoskow.github.io/bikini",
-  "name": "bikinibomb",
+  "homepage": "http://paulmoskow.github.io/bikini/",
+  "name": "bikini",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

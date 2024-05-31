@@ -1,11 +1,13 @@
 .cards__container {
     position: relative;
     overflow: hidden;
+    width: 100%;
   }
 
   .cards__container_landing {
     background-image: url('../../images/background-pic.jpg');
     width: 1140px;
+    max-width: 98vw;
     min-height: 500px;
     background-position: center;
     background-repeat: no-repeat;

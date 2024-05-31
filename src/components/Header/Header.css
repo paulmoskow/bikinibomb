@@ -15,6 +15,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: stretch;
+  overflow-x: visible;
 }
 
 .header__logo {
@@ -101,6 +102,7 @@
   .header__container_hidden {
     visibility: hidden;
     position: absolute;
+    max-width: 300px;
   }
 
   .header__container_visible {

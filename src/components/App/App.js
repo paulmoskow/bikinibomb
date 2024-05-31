@@ -22,7 +22,7 @@ function App() {
 
     <div className="App">
         <Routes>
-          <Route path="/" element={
+          <Route path="/bikinibomb" element={
             <>
               <Header onMenu={handleMenuClick}
               />
